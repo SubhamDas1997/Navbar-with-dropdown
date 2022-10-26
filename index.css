@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    background-color: maroon;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0%;
+}
+
+#navbar {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu {
+    background-color: grey;
+    margin: 0%;
+    padding: 6px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 6px;
+}
+
+.menu li:hover {
+    background-color: black;
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    background-color: lightgray;
+    display: none;
+    position: absolute;
+    top: 46px;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    display: none;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li:hover {
+    background-color: gray;
+}
+
+.submenu li a {
+    color: blueviolet;
+}
